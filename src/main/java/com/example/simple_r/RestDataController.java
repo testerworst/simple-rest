@@ -12,4 +12,9 @@ public class RestDataController {
     public String getCall(){
         return "subash.pernndas.savari";
     }
+
+    @GetMapping("/student")
+    public StudentDTO studentDTO(){
+        return new StudentDTO("subash.pernandas.savari", 32);
+    }
 }
