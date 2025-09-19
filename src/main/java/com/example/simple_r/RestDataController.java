@@ -13,6 +13,7 @@ public class RestDataController {
 
     @GetMapping("/get")
     public String getCall(){
+        log.info("get");
         return "subash.pernndas.savari";
     }
 
