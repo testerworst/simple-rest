@@ -53,5 +53,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>simple-rest</finalName>
 	</build>
 </project>
